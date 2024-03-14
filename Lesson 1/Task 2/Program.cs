@@ -24,4 +24,12 @@ Console.WriteLine(quotient);
 double quotient2 = i1 / c1;
 Console.WriteLine(quotient2);
 
+int a = 15;
+int b = 3;
+int c = 4;
+int d = 5;
+int operation = a * b / (c + d);
+Console.WriteLine(operation);
+
+
 
