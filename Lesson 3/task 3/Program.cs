@@ -1,26 +1,26 @@
-﻿// void ZeroEvenElements(int[] array)
-// {
-//     for (int i = 0; i < array.Length; i++)
-//     {
-//         if (array[i] % 2 == 0)
-//         {
-//             array[i] = 0;
-//         }
-//     }
-// }
+﻿void ZeroEvenElements(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i] % 2 == 0)
+        {
+            array[i] = 0;
+        }
+    }
+}
 
-// void PrintArray(int[] array)
-// {
-//     foreach (int e in array)
-//     {
-//         Console.Write($"{e} ");
-//     }
-// }
+void PrintArray(int[] array)
+{
+    foreach (int e in array)
+    {
+        Console.Write($"{e} ");
+    }
+}
 
 
-// int[] arr = { 1, 2, 3, 4, 5, 6 };
-// ZeroEvenElements(arr);
-// PrintArray(arr);
+int[] arr = { 1, 2, 3, 4, 5, 6 };
+ZeroEvenElements(arr);
+PrintArray(arr);
 
 //
 
